@@ -10,12 +10,14 @@ namespace Summator
             if (sum == 21)
             {
                 Console.WriteLine("TEST PASS");
-            } else
+            } 
+            else
             {
                 Console.WriteLine("TEST FAIL");
             }
 
-            long average = Summator.Average(new int[] { 5, 10, 15 });
+            long average = (long)Summator.Average(new int[] { 5, 10, 15 });
+
             if (average == 10)
             {
                 Console.WriteLine("TEST PASS");
